@@ -1,0 +1,12 @@
+tensorflow==2.16.1
+tf-keras
+protobuf==4.25.3
+streamlit==1.61.1
+numpy
+pandas
+matplotlib
+Sastrawi
+nltk
+plotly
+wordcloud
+google-play-scraper
