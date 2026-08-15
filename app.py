@@ -721,7 +721,7 @@ def show_scraper():
         )
         sort_by = st.selectbox("Urutan", ["Terbaru", "Paling Relevan"])
     with c2:
-        count        = st.slider("Jumlah Ulasan", 100, 10000, 1000, 100)
+        count        = st.slider("Jumlah Ulasan", 100, 50000, 1000, 100)
         filter_score = st.selectbox("Filter Rating", ["Semua","Bintang 1","Bintang 2","Bintang 3","Bintang 4","Bintang 5"])
 
     if st.button("🚀 Mulai Scraping", type="primary", use_container_width=True):
